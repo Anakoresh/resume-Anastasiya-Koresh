@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font: normal 16px 'Roboto', sans-serif;
+    color: #0f141e;
+    background: #f1f1f1
+} 
+
+h1, h2 {
+    padding: 10px 0;
+}
+
+h4 {
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkturquoise;
+    margin-top: 5px;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 14px rgba(0, 206, 209, 0.5);
+    opacity: 0.8;
+}
+
+.container {
+    margin: auto;
+    max-width: 600px;
+} 
+
+header img {
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.aboutme {
+    width: 70%;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.text {
+    font-style: italic;
+    padding: 10px 0;
+    color: #86898f;
+}
+
+.container div {
+    margin: 10px 0;
+}
+
+.card {
+    border: 3px solid darkturquoise;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding-left: 15px;
+}
+
+.hobbies ul {
+    list-style: square;
+    margin: 0;
+    padding: 15px;
+    color: #86898f;
+}
+
+.experience table {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.experience table tbody {
+    color: #86898f;
+}
+
+.experience table td:nth-child(2) {
+    font-style: italic;
+}
+
+.messageme h2 {
+    text-align: center;
+}
+
+.messageme form {
+    font-size: 14px;
+    color: #86898f;
+}
+
+.name, .email {
+    width: 50%;
+} 
+
+.form-row {
+    display: flex;
+}
+
+.messageme form .email {
+    margin-left: 20px;
+}
+
+.messageme form label {
+    display: block;
+    width: 100%;
+}
+
+.messageme form input, .messageme form textarea {
+   border: none;
+   border-bottom: 1px solid #86898f;
+   display: block;
+   background: transparent;
+   padding: 0;
+   margin: 0;
+   padding-top: 10px;
+   font: inherit;
+   width: 100%;
+   box-sizing: border-box;
+   color:#000;
+} 
+
+@media(max-width: 600px) {
+    .container {
+        text-align: center;
+    }
+
+    header img {
+        display: block;
+        margin: auto;
+    }
+
+    .aboutme {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
